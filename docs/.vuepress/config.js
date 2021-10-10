@@ -1,6 +1,7 @@
 module.exports = {
     lang: 'zh-CN',
     title: 'Spring Boot',
+    base: '/notes/springboot/',
     description: 'Spring Boot 编程学习，这是悟空非空也的SpringBoot技术的学习笔记',
 
     themeConfig: {
@@ -97,4 +98,17 @@ module.exports = {
     /*    displayAllHeaders: true, // 默认值：false*/
         sidebarDepth: 1,
     },
+
+
+
+
+/*    plugins: [
+        [
+            '@vuepress/plugin-search',
+            {
+                // 排除首页
+                isSearchable: (page) => page.path !== '/',
+            },
+        ],
+    ],*/
 }

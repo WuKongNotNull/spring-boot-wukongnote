@@ -31,7 +31,7 @@ server:
 
 
 
-<br><br><br>
+
 
 
 
@@ -395,7 +395,7 @@ class ApplicationTests {
 
 
 
-<br><br><br>
+
 
 
 # 自定义配置文件
@@ -426,7 +426,7 @@ public @interface PropertySource {
 ### 案例
 
 
-自定义配置文件<br>
+自定义配置文件
 test.properties
 
 ```properties
@@ -554,7 +554,7 @@ myBeans.xml
 </beans>
 ```
 
-<br>
+
 
 启动类上添加 @ImportResource 注解
 
@@ -680,7 +680,7 @@ public class MyConfig {
 }
 
 ```
-<br>
+
 
 ```java
 
@@ -690,7 +690,7 @@ public class Pet {
 
 ```
 
-<br>
+
 
 测试
 
@@ -707,10 +707,10 @@ public class Pet {
 
 ```
 
-<br>
-<br>
-<br>
-<br>
+
+
+
+
 
 
 
@@ -728,7 +728,7 @@ public class Pet {
 
 
 ### 方法一
-<br>
+
 使用命令行方式激活指定环境的配置文件
 
 <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gv5x05obbij61970apgo002.jpg" alt="1593098529499" style="zoom:50%;" />
@@ -741,7 +741,7 @@ ctrl+c  服务器运行退出
 
 ctrl+c  停止
 
-<br>
+
 
 ### 方法二
 在全局配置文件application.properties设置 spring.profiles.active属性激活
@@ -749,17 +749,17 @@ ctrl+c  停止
 ```properties
 spring.profiles.active=test
 ```
-<br>
+
 
 ### 案例 1 不同环境下使用不同端口
 
-<br>
+
 
 **创建不同环境下配置文件**
 
 <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gv5x0f06ngj60f805qq3702.jpg" alt="image-20210714153939686" style="zoom:50%;" />
 
-<br>
+
 
 application.yml
 
@@ -798,23 +798,23 @@ server:
 
 
 
-<br>
+
 
 **运行 main 方法，查看控制台的端口号输出信息**
 
-<br>
+
 
 ### 案例 2 不同环境下使用不同数据库
 
 **使用 @Profile 注解进行多环境配置**
 
-<br>
+
 
 编写不同环境下的配置类
 
 <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gv5x0jpfoaj60ea06y0sy02.jpg" alt="image-20210714160713270" style="zoom:50%;" />
 
-<br>
+
 
 ```java
 package com.wukongnotnull.config;
@@ -855,7 +855,7 @@ public class DevDBConnector  implements  DBConnector{
 }
 
 ```
-<br>
+
 
 ```java
 package com.wukongnotnull.config;
@@ -877,7 +877,7 @@ public class ProDBConnector  implements  DBConnector{
 }
 ```
 
-<br>
+
 
 ```java
 package com.wukongnotnull.config;/* 
@@ -899,7 +899,7 @@ public class TestDBConnector implements  DBConnector{
 
 ```
 
-<br>
+
 
 在全局配置文件application.properties中指定使用哪个环境
 
@@ -913,7 +913,7 @@ spring.profiles.active=test
 
 ```
 
-<br>
+
 
 测试
 
@@ -930,11 +930,11 @@ spring.profiles.active=test
 
 
 
-<br>
 
-<br>
 
-<br>
+
+
+
 
 ## yml 高级玩法
 ### 参数间引用
@@ -952,7 +952,7 @@ wukong.description=悟空非空也的年龄可能是 ${wukong.age}
 
 ```
 
-<br>
+
 
 test
 
@@ -971,6 +971,5 @@ class MySpringbootApplicationTests {
 ```
 
 
-<br>
-<br>
-<br>
+
+

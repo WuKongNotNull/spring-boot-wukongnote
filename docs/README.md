@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/sb.png
+heroImage: /images/spring.png
 heroText: Spring Boot 笔记
 tagline: 从青铜到王者
 features:
