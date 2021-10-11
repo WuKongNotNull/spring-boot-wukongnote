@@ -284,7 +284,7 @@ public class CommentController {
 ```
 
 
-<extoc></extoc>
+
 
 ## Spring Boot默认缓存体验
 
@@ -388,7 +388,7 @@ public class CommentServiceImpl implements  CommentService {
 
 
 
-<extoc></extoc>
+
 
 
 ## Redis 缓存介绍
